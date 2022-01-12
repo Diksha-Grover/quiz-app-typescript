@@ -60,3 +60,4 @@ export const Wrapper = styled.div`
     max-width: 200px;
   }
 `;
+  // > p means to styles p tag inside this Wrapper only

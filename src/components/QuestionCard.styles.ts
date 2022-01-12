@@ -43,3 +43,6 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
   }
 `;
+// so if the answer is correct then the color of the button is 'linear-gradient(90deg, #56FFA4, #59BC86)'
+// if the answer is incorrect then the color of the button is 'linear-gradient(90deg, #FF5656, #C16868)'
+// the background of the button is 'linear-gradient(90deg, #56ccff, #6eafb4)'};
