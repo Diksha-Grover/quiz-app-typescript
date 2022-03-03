@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import { fetchQuizQuestions } from './API';
-// Components
 import QuestionCard from './components/QuestionCard';
-// types
 import { QuestionsState, Difficulty } from './API';
-// Styles 
 import { GlobalStyle, Wrapper } from './App.styles';
 
 export type AnswerObject = {
@@ -81,7 +78,7 @@ const App: React.FC = () => {
       <Wrapper>
         <h1>REACT QUIZ</h1>
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
-          // it means show the button 'start' if the game is over or the user h given the answer to the last question
+          // it means show the button 'start' if the game is over or the user has given the answer to the last question
           <button className='start' onClick={startTrivia}>
             Start
           </button>

@@ -15,6 +15,7 @@ export enum Difficulty {
   MEDIUM = "medium",
   HARD = "hard",
 }
+// Enums allow a developer to define a set of named constants. Using enums can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based enums.
 
 export type QuestionsState = Question & { answers: string[] };
 // first i grab the Question I created above then I have created a property called answers and answers is going to be array of strings

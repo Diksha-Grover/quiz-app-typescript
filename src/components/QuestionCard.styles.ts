@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+// styled-components is a CSS-in-JS library that enables you to write regular CSS and attach it to JavaScript components. 
 
 export const Wrapper = styled.div`
   max-width: 1100px;
@@ -17,6 +18,8 @@ type ButtonWrapperProps = {
   correct: boolean;
   userClicked: boolean;
 };
+// typescript type supports only the data types and not the use of an object. The typescript interface supports the use of the object.
+// we can easily extend and implement interfaces. This is not possible with types though
 
 export const ButtonWrapper = styled.div<ButtonWrapperProps>`
   transition: all 0.3s ease;

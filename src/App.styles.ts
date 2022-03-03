@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
+// createGlobalStyle is a helper function to generate a special StyledComponent that handles global styles
 import BGImage from './images/nattu-adnan-unsplash.jpg';
 
 export const GlobalStyle = createGlobalStyle`
