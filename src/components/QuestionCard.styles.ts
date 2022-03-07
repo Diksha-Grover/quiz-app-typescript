@@ -18,8 +18,16 @@ type ButtonWrapperProps = {
   correct: boolean;
   userClicked: boolean;
 };
-// typescript type supports only the data types and not the use of an object. The typescript interface supports the use of the object.
-// we can easily extend and implement interfaces. This is not possible with types though
+
+//  it seems that the only reason to choose an interface over a type alias is declaration merging: 
+//  Declaration merging
+//  Unlike a type alias, an interface can be defined multiple times, and will be treated as a single interface (with members of all declarations being merged).
+ // These two declarations become:
+ // interface Point { x: number; y: number; }
+//  interface Point { x: number; }
+//  interface Point { y: number; }
+//  const point: Point = { x: 1, y: 2 };
+ 
 
 export const ButtonWrapper = styled.div<ButtonWrapperProps>`
   transition: all 0.3s ease;
