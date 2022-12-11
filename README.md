@@ -4,3 +4,5 @@ commands here used are:
     this command includes app.tsx and react-app-env.d.ts
 
 2.  npm i styled-components @types/styled-components
+
+2. npm i gh-pages --save-dev
