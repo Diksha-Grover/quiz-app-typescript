@@ -5,4 +5,6 @@ commands here used are:
 
 2.  npm i styled-components @types/styled-components
 
-2. npm i gh-pages --save-dev
+3. npm i gh-pages --save-dev
+
+4. npm run deploy
